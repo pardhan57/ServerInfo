@@ -2,6 +2,6 @@
 
 # Server Information
 
-$Server_name = $_SERVER['SERVER_NAME'];
-
-echo $Server_name;
+$server_name = $_SERVER['SERVER_NAME'];
+$server_software =  $_SERVER['SERVER_SOFTWARE'];
+$remote_host = $_SERVER['REMOTE_HOST'];

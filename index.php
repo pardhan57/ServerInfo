@@ -1,0 +1,5 @@
+<?php
+/*Server Information */
+
+
+?>

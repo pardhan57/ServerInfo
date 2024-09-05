@@ -2,6 +2,8 @@
 
 # Server Information
 
-$server_name = $_SERVER['SERVER_NAME'];
-$server_software =  $_SERVER['SERVER_SOFTWARE'];
-$remote_host = $_SERVER['REMOTE_HOST'];
+$serverInfo= [
+    'Server Name' => $_SERVER['SERVER_NAME'],
+    'Server Software' => $_SERVER['SERVER_SOFTWARE'],
+    'Server Port' => $_SERVER['SERVER_PORT'],
+];
